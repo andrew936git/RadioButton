@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name" translatable="false">RadioButton</string>
+    <string name="startButtonText">Начать</string>
+    <string name="buttonText">Принять</string>
+    <string name="radioButtonText1_1">Александр I</string>
+    <string name="radioButtonText1_2">Александр II</string>
+    <string name="radioButtonText1_3">Николай II</string>
+    <string name="question1">Как звали последнего русского императора?</string>
+    <string name="question2">Кем был Александр Васильевич Суворов?</string>
+    <string name="radioButton2_1">Полководец</string>
+    <string name="radioButton2_2">Дипломат</string>
+    <string name="radioButton2_3">Купец</string>
+    <string name="question3">Как называлась община у восточных славян?</string>
+    <string name="radioButton3_1">Полюдье</string>
+    <string name="radioButton3_2">Верфь</string>
+    <string name="radioButton3_3">Вече</string>
+    <string name="question4">Через какую из этих рек проходил торговый путь из варяг в греки?</string>
+    <string name="radioButton4_1">Волга</string>
+    <string name="radioButton4_2">Дунай</string>
+    <string name="radioButton4_3">Днепр</string>
+    <string name="question5">Сколько степеней имел орден славы?</string>
+    <string name="radioButton5_1">2</string>
+    <string name="radioButton5_2">3</string>
+    <string name="radioButton5_3">1</string>
+</resources>

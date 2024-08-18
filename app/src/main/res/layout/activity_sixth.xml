@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/turquoise"
+    android:orientation="vertical"
+    tools:context=".SecondActivity">
+
+    <RadioGroup
+        android:id="@+id/radioGroupRG"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="24dp"
+        tools:ignore="UselessParent">
+
+        <TextView
+            android:id="@+id/textViewTV"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/_50dp"
+            android:gravity="center"
+            android:textSize="@dimen/_24sp"
+            android:text="@string/question5"
+            tools:ignore="MissingConstraints" />
+
+        <RadioButton
+            android:id="@+id/radioButton1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/radioButton5_1"/>
+
+
+        <RadioButton
+            android:id="@+id/radioButton2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/radioButton5_2"/>
+
+        <RadioButton
+            android:id="@+id/radioButton3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/radioButton5_3"/>
+
+
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/buttonBT"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/_100dp"
+        android:layout_marginEnd="@dimen/_100dp"
+        android:layout_marginTop="@dimen/_50dp"
+        android:text="@string/buttonText" />
+
+</LinearLayout>
